@@ -1,66 +1,119 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚀 Praktikum Pemrograman Berbasis Web A
+## Tugas 3 — Instalasi, Konfigurasi, dan Halaman Pertama Laravel
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://img.shields.io/badge/Praktikum-PBW%20A-blue?style=for-the-badge" alt="Praktikum PBW A">
+  <img src="https://img.shields.io/badge/Laravel-Framework-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
 </p>
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 👨‍🎓 Identitas Mahasiswa
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+| Informasi | Keterangan |
+|---|---|
+| **Nama** | Muhammad Tegar Arianto |
+| **NPM** | 4524210070 |
+| **Mata Kuliah** | Praktikum Pemrograman Berbasis Web A |
+| **Tugas** | Tugas 3 |
+| **Judul Praktikum** | Instalasi, Konfigurasi, dan Halaman Pertama Laravel |
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 📌 Deskripsi Praktikum
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Praktikum ini membahas proses instalasi dan konfigurasi framework Laravel serta pembuatan halaman web pertama menggunakan Laravel.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Melalui praktikum ini, mahasiswa mempelajari dasar penggunaan framework PHP untuk membangun aplikasi web dengan struktur kode yang lebih terorganisasi.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🎯 Tujuan Praktikum
 
-## Laravel Sponsors
+- Memahami konsep dasar framework Laravel.
+- Melakukan instalasi Laravel pada lingkungan pengembangan lokal.
+- Memahami struktur direktori dan file pada project Laravel.
+- Mengenal konfigurasi awal aplikasi Laravel.
+- Membuat dan menjalankan halaman pertama Laravel melalui browser.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🛠️ Teknologi yang Digunakan
 
-### Premium Partners
+<p>
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/Composer-885630?style=flat-square&logo=composer&logoColor=white" alt="Composer">
+  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code">
+</p>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+- **Laravel** — Framework PHP untuk pengembangan aplikasi web.
+- **PHP** — Bahasa pemrograman utama Laravel.
+- **Composer** — Dependency manager untuk PHP.
+- **Visual Studio Code** — Editor kode untuk mengembangkan aplikasi.
 
-## Contributing
+## ⚙️ Tahapan Praktikum
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 1. Instalasi Laravel
 
-## Code of Conduct
+Melakukan instalasi Laravel menggunakan Composer untuk membuat project aplikasi web baru.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 2. Konfigurasi Project
 
-## Security Vulnerabilities
+Memeriksa konfigurasi awal aplikasi dan memahami fungsi file serta folder utama pada project Laravel.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 3. Menjalankan Server Lokal
 
-## License
+Menjalankan aplikasi Laravel menggunakan perintah Artisan:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+php artisan serve
+```
+
+### 4. Membuat Halaman Pertama
+
+Mengenal routing Laravel melalui file `routes/web.php` untuk menentukan halaman yang ditampilkan pada browser.
+
+Contoh route sederhana:
+
+```php
+Route::get('/', function () {
+    return view('welcome');
+});
+```
+
+Route tersebut menampilkan halaman `welcome` ketika pengguna membuka halaman utama aplikasi.
+
+## ▶️ Cara Menjalankan Project
+
+1. Pastikan PHP dan Composer sudah terinstal.
+2. Buka terminal pada direktori project Laravel.
+3. Instal dependency jika diperlukan:
+
+   ```bash
+   composer install
+   ```
+
+4. Jalankan server Laravel:
+
+   ```bash
+   php artisan serve
+   ```
+
+5. Buka browser dan akses:
+
+   ```text
+   http://127.0.0.1:8000
+   ```
+
+
+## 📖 Kesimpulan
+
+Melalui praktikum ini, mahasiswa mempelajari instalasi dan konfigurasi awal Laravel, memahami struktur project, serta mengenal routing untuk menampilkan halaman pertama aplikasi web.
+
+Praktikum ini menjadi dasar untuk mempelajari pengembangan aplikasi web menggunakan framework Laravel pada pertemuan berikutnya.
+
+---
+
+<p align="center">
+  <b>✨ Muhammad Tegar Arianto ✨</b><br>
+  <sub>4524210070 · Praktikum Pemrograman Berbasis Web A</sub><br>
+  <sub>Tugas 3 — Instalasi, Konfigurasi, dan Halaman Pertama Laravel</sub>
+</p>
